@@ -90,6 +90,10 @@ h1, h2, h4, h5 {
     background: linear-gradient(135deg, #0f0f14, #1a0033);
 }
 
+#services .container {
+    max-width: 900px;
+}
+
 #services .card {
     background: linear-gradient(135deg, #1c1c28, #24103d);
     border: none;
@@ -99,14 +103,70 @@ h1, h2, h4, h5 {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+#services .row {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 #services .card:hover {
-    transform: translateY(-10px);
     box-shadow: 0 15px 40px rgba(124, 77, 255, 0.3);
 }
 
 #services h4 {
     color: #9d4edd;
     margin-bottom: 15px;
+}
+
+/* CERTIFICATIONS SECTION */
+
+#certifications {
+    background: linear-gradient(135deg, #1a0033, #2d0b59, #0f0f14);
+}
+
+#certifications .card {
+    background: linear-gradient(135deg, #1c1c28, #24103d);
+    border: none;
+    border-radius: 15px;
+    color: #ddd;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.6);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#certifications .card:hover {
+    box-shadow: 0 15px 40px rgba(124, 77, 255, 0.3);
+}
+
+#certifications h5 {
+    color: #9d4edd;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+#certifications i {
+    color: #9d4edd !important;
+}
+
+/* EDUCATION SECTION */
+
+#education {
+    background: linear-gradient(135deg, #1a0033, #0f0f14);
+}
+
+#education .card {
+    background: linear-gradient(135deg, #1c1c28, #24103d);
+    border: none;
+    border-radius: 15px;
+    color: #ddd;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.6);
+}
+
+#education h4 {
+    color: #9d4edd;
+    margin-bottom: 10px;
+}
+
+#education p {
+    color: #ccc;
 }
 
 /* PROJECTS SECTION */
@@ -144,8 +204,8 @@ h1, h2, h4, h5 {
     height: 200px; 
 }
 
-#projects .card-body .p {
-    color: white
+#projects .card-body p {
+    color: #eaeaea;
 }
 
 /* RESPONSIVE DESIGN */

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> My Portfolio </title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -20,6 +21,8 @@
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
                 <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                <li class="nav-item"><a class="nav-link" href="#certifications">Certifications</a></li>
+                <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
                 <li class="nav-item"><a class="nav-link" href="#projects"a>Projects</a></li>
                 <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
             </ul>
@@ -45,25 +48,91 @@
 
     <!-- Services Section -->
      <section id="services" class="section-padding">
-    <div class="container">
+    <div class="row text-center justify-content-center">
         <h2 class="text-center mb-5">My Services</h2>
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+        <div class="card p-4 h-100">
+            <h4>Web Design</h4>
+            <p>Simple and clean website designs.</p>
+        </div>
+    </div>
+
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+        <div class="card p-4 h-100">
+            <h4>UI/UX Development</h4>
+            <p>User interface and user experience design features.</p>
+        </div>
+    </div>
+
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+        <div class="card p-4 h-100">
+            <h4>Python Projects</h4>
+            <p>Beginner-friendly Python programming projects.</p>
+        </div>
+    </div>
+
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+        <div class="card p-4 h-100">
+            <h4>Student Projects</h4>
+            <p>Beginner-friendly web projects.</p>
+        </div>
+    </div>
+</div>
+
+</section>
+
+<!-- 🔹 Certifications Section -->
+<section id="certifications" class="section-padding bg-light">
+    <div class="container">
+        <h2 class="text-center mb-5"> Certifications </h2>
         <div class="row text-center">
             <div class="col-md-4">
                 <div class="card p-4">
-                    <h4>Web Design</h4>
-                    <p>Simple and clean website designs.</p>
+                    <i class="bi bi-award fs-1 text-primary mb-3"></i>
+                    <h5> Web Development Basics </h5>
+                    <p> HTML, CSS, JavaScript, and Bootstrap fundamentals </p>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="card p-4">
-                    <h4>Frontend Development</h4>
-                    <p>Responsive layouts using Bootstrap.</p>
+                    <i class="bi bi-shield-lock fs-1 text-primary mb-3"></i>
+                    <h5> Python Programming Language </h5>
+                    <p> Python programming concepts and syntax </p>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="card p-4">
-                    <h4>Student Projects</h4>
-                    <p>Beginner-friendly web projects.</p>
+                    <i class="bi bi-patch-check fs-1 text-primary mb-3"></i>
+                    <h5> IT Fundamentals </h5>
+                    <p> Computer systems and networking basics </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- 🔹 Education Section -->
+<section id="education" class="section-padding">
+    <div class="container">
+        <h2 class="text-center mb-5">Education</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="card p-4">
+                    <h4> Bachelor of Science in Information Technology </h4>
+                    <p class="mb-1"><strong> University of Mindanao </strong></p>
+                    <p class="text-white"> 2024 – Present </p>
+                    <p>
+                        Focused on web development, programming fundamentals,
+                        and information security concepts.
+                    </p>
+
+                    <h4> Science, Technology, Engineering, and Mathematics (STEM) </h4>
+                    <p class="mb-1"><strong> St. John Paul II College of Davao </strong></p>
+                    <p class="text-white"> 2022 - 2024 </p>
+                    <p>
+                        Specialized in advanced mathematics, physics, chemistry,
+                        and biology courses.
+                    </p>
                 </div>
             </div>
         </div>
@@ -93,7 +162,7 @@
                     <img src="images/votex_project.jpg" class="card-img-top" alt="VoteX Voting System">
                     <div class="card-body">
                         <h5>VoteX – Voting System</h5>
-                        <p class="text-white text-center" >A simple and secure online voting system.</p>
+                        <p>" >A simple and secure online voting system.</p>
                     </div>
                 </div>
             </div>
@@ -132,6 +201,13 @@
 
     <!-- Footer -->
      <footer class="text-center py-4 bg-dark text-white">
+        <div class="container">
+        <div class="mb-3">
+            <a href="https://www.facebook.com/gray.ramosiv" class="text-white me-3 fs-4"><i class="bi bi-facebook"></i></a>
+            <a href="https://github.com/elixzyrrr" class="text-white me-3 fs-4"><i class="bi bi-github"></i></a>
+            <a href="https://www.linkedin.com/in/maysie-pajarillaga-428448347/" class="text-white me-3 fs-4"><i class="bi bi-linkedin"></i></a>
+            <a href="mailto:mitsyramos6@gmail.com" class="text-white fs-4"><i class="bi bi-envelope-fill"></i></a>
+        </div>
     <p class="mb-0">© 2026 Maysie P. | All Rights Reserved</p>
 </footer>
 
